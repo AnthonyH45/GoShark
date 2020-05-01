@@ -9,20 +9,9 @@ Basic Premise
 - CLI
 - specifiy an interface
 - capture packets
-- Send them to ~a MongoDB on~ GCP
+- ~Send them to a MongoDB on GCP~ Moved this to host device
 - analyze the packets for insecurities
-- alert the user of insecure connections
+- alert the user of insecure connections via a generated LaTeX document
 
-TODO:
-- ~Be able to list interfaces~
-- ~Take in user input to specifiy interface~
-- ~start capturing packets in background while user does stuff~
-- ~every 5 min, send packets to GCP to be analyzed~ Scraped this idea
-
-~ON GCP~
-- ~receive packets~
-- ~use REGEX to find insecure connections, and filter those out immediately (ie, unsecured telnet, flag)~
-- ~write alerts to latex documents (then compile)~
-- ~SCP file to host~
-
-- Host then has pdf with alerts
+# Winner of the Cybersecurity category for CitrusHack 2020
+https://devpost.com/software/goshark-rng9ot
